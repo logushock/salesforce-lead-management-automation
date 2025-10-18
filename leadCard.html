@@ -1,0 +1,10 @@
+
+<template>
+    <lightning-card title="Lead">
+        <div class="slds-p-around_medium">
+            <p if:true={lead}>Name: {lead.Name}</p>
+            <p if:true={lead}>Company: {lead.Company}</p>
+            <p if:true={lead}>Status: {lead.Status}</p>
+        </div>
+    </lightning-card>
+</template>
